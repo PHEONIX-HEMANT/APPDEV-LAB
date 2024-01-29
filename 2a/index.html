@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Larger Text</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 60vw;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            word-wrap: break-word;
+            overflow: hidden;
+            border: 2px solid aquamarine;
+            border-radius: 20%;
+        }
+        .text{
+            font-size: 20px;
+            transform: scale(1.5);
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+</body>
+
+</html>
