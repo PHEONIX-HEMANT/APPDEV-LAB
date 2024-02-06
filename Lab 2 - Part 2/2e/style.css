@@ -1,0 +1,14 @@
+/* Individual tabs */
+li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 10px;
+}
+
+/* Add border below all tabs */
+li:not(:last-child) {
+    border-bottom: 1px solid black;
+}

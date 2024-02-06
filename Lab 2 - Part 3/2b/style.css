@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    margin-left: 75px;
+    list-style-type: none;
+  }
+  
+  ul ul {
+    margin-left: 15px;
+    text-decoration: underline;
+  }
+  
+  em {
+    color: red;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: aqua;
+  }
+  
+/*
+To validate the CSS file using the W3C CSS Validation Service, you can visit the following link: W3C CSS Validation Service. Upload or enter the URL of your style.css file to check for any CSS validation errors.
+*/

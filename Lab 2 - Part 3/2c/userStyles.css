@@ -1,0 +1,10 @@
+body {
+    font-size: 20pt;
+    color: yellow;
+    background-color: blue;
+  }
+  
+  strong {
+    color: yellow; /* Apply the color style to the <strong> element */
+  }
+  
